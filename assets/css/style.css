@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.wrapper .form-input {
+  width: 90%;
+}
+.wrapper .form-input .values {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.wrapper .form-input .values #n1 {
+  width: 20%;
+  margin-right: 8%;
+}
+.wrapper .form-input .values #n2 {
+  width: 25%;
+}
+.wrapper .form-input .buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.wrapper .form-input .buttons .toplama {
+  background-color: rgb(5, 142, 233);
+  width: 10%;
+  margin-right: 25px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 2px 5px;
+}
+.wrapper .form-input .buttons .cixma {
+  background-color: red;
+  width: 10%;
+  margin-right: 25px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 2px 5px;
+}
+.wrapper .form-input .buttons .vurma {
+  background-color: green;
+  width: 10%;
+  margin-right: 25px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+.wrapper .form-input .buttons .bolme {
+  background-color: rgb(255, 218, 11);
+  width: 10%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 2px 5px;
+}
+.wrapper .form-input .result-calculate {
+  display: flex;
+  justify-content: center;
+}
+.wrapper .form-input .result-calculate #result {
+  width: 25%;
+}/*# sourceMappingURL=style.css.map */
